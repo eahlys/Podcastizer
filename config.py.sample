@@ -1,0 +1,16 @@
+LISTEN_IP = '127.0.0.1'
+LISTEN_PORT = 7676
+
+PODCASTS_MERGE = {
+    'inter-chroniques': {
+        'title': 'France Inter / Chroniques',
+        'description': 'France Inter - Podcastizer',
+        'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/France_Inter_logo_2021.svg/langfr-1920px-France_Inter_logo_2021.svg.png',
+        'website': 'https://franceinter.fr',
+        'sources': {
+            '17h17': 'http://radiofrance-podcast.net/podcast09/rss_16597.xml',
+            'Guiz': 'http://radiofrance-podcast.net/podcast09/rss_16609.xml'
+        },
+        'ignore_title': 'Retrouvez tous les épisodes sur l’appli Radio France'
+    }
+}
