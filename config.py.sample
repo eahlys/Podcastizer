@@ -1,22 +1,26 @@
 PODCASTS_MERGE = {
-    'inter-chroniques': {
-        'title': 'France Inter / Chroniques',
-        'description': 'France Inter - Podcastizer',
-        'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/France_Inter_logo_2021.svg/langfr-1920px-France_Inter_logo_2021.svg.png',
-        'website': 'https://franceinter.fr',
-        'sources': {
-            'Rossignol': 'http://radiofrance-podcast.net/podcast09/rss_19745.xml',
-            'VDB': 'http://radiofrance-podcast.net/podcast09/rss_14523.xml',
-            'Waly Dia': 'http://radiofrance-podcast.net/podcast09/rss_21776.xml',
-            'Mirabel': 'http://radiofrance-podcast.net/podcast09/rss_21433.xml',
-            'Lompret': 'http://radiofrance-podcast.net/podcast09/rss_20857.xml',
-            'Morgane': 'http://radiofrance-podcast.net/podcast09/rss_21477.xml',
-            '17h17': 'http://radiofrance-podcast.net/podcast09/rss_16597.xml',
-            'Meurice': 'http://radiofrance-podcast.net/podcast09/rss_14257.xml',
-            'Guiz': 'http://radiofrance-podcast.net/podcast09/rss_16609.xml',
-            'Fanny Ruwet': 'http://radiofrance-podcast.net/podcast09/rss_20771.xml',
-            'Marina': 'http://radiofrance-podcast.net/podcast09/rss_18348.xml'
+    "inter": {
+        "title": "France Inter",
+        "description": "France Inter - Podcastizer",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/France_Inter_logo_2021.svg/langfr-1920px-France_Inter_logo_2021.svg.png",
+        "website": "https://franceinter.fr",
+        "sources": {
+            "Lompret": "http://radiofrance-podcast.net/podcast09/rss_20857.xml",
+            "Constance": "https://radiofrance-podcast.net/podcast09/rss_18834.xml",
+            "Morgane": "http://radiofrance-podcast.net/podcast09/rss_21477.xml",
+            "VDB": "http://radiofrance-podcast.net/podcast09/rss_14523.xml",
+            "Tristan": "https://radiofrance-podcast.net/podcast09/rss_23111.xml",
+            "Waly Dia": "http://radiofrance-podcast.net/podcast09/rss_21776.xml",
+            "Rossignol": "http://radiofrance-podcast.net/podcast09/rss_19745.xml",
+            "Juliette": "https://radiofrance-podcast.net/podcast09/rss_17227.xml",
+            "Fanny": "http://radiofrance-podcast.net/podcast09/rss_20771.xml",
+            "Marina": "http://radiofrance-podcast.net/podcast09/rss_18348.xml",
+            "David": "https://radiofrance-podcast.net/podcast09/rss_24413.xml",
+            "Kominek": "https://radiofrance-podcast.net/podcast09/rss_22458.xml",
+            "Mirabel": "http://radiofrance-podcast.net/podcast09/rss_21433.xml",
+            "JBN": "https://radiofrance-podcast.net/podcast09/rss_16597.xml",
+            "Meurice": "http://radiofrance-podcast.net/podcast09/rss_14257.xml",
         },
-        'ignore_title': 'Retrouvez tous les épisodes sur l’appli Radio France'
+        "ignore_title": "Retrouvez tous les épisodes sur l’appli Radio France",
     }
 }
