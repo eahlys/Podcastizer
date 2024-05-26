@@ -3,7 +3,8 @@ Description=Podcastizer
 After=network-online.target
 
 [Service]
-ExecStart=/opt/Podcastizer/venv/bin/python3 -m waitress --listen 0.0.0.0:8005 wsgi:app
+WorkingDirectory=/opt/Podcastizer
+ExecStart=/opt/Podcastizer/venv/bin/python3 -m waitress --listen 127.0.0.1:8005 wsgi:app
 Restart=on-failure
 
 [Install]
