@@ -1,7 +1,6 @@
 [Unit]
 Description=Podcastizer
 After=network-online.target
-
 [Service]
 WorkingDirectory=/opt/Podcastizer
 ExecStart=/opt/Podcastizer/venv/bin/python3 -m waitress --listen 127.0.0.1:8005 wsgi:app

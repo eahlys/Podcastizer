@@ -21,7 +21,6 @@ def parse_podcast_episodes(feed_url, prepend_str, ignore_title):
 
         if item['title'] != ignore_title:
             episodes.append(data)
-
     return episodes
 
 
